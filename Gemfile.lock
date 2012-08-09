@@ -123,7 +123,7 @@ DEPENDENCIES
   json
   pg
   rails (= 3.2.7)
-  rspec-rails
+  rspec-rails (~> 2.0)
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)

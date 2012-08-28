@@ -13,7 +13,11 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', "~> 2.0"
+  gem 'guard-rspec', '0.5.5'
   gem "capybara"
+  gem 'growl'
+  gem 'guard-spork'
+  gem 'spork'
 end
 # Gems used only for assets and not required
 # in production environments by default.
